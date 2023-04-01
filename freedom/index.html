@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img.png">
+    <title>Свобода</title>
+    <style>
+
+        .center {
+            display: flex;
+            justify-content: center;
+        }
+        .ph  {
+            background-color: aliceblue;
+            color: rgb(0, 136, 255);
+            width: 280px;
+            font-size: 25px;
+        }
+        .ph2 {
+            background-color: aliceblue;
+            color: #0088ff;
+            width: 231.5px;
+            font-size: 25px;
+        }
+        .text {
+            font-family: 'Unbounded', medium;
+            font-size: 18px; 
+        }
+        .marginleft {
+            margin-left: 20px;
+        }
+        .marginright {
+            margin-right: 40px;
+            margin-left: 700px;
+        }
+        .phw {
+            background-color: aliceblue;
+            color: #0088ff;
+            width: 425.7px;
+            box-shadow: 0px 0px 30px #0088ff;
+            font-size: 25px;
+        }
+        button {
+            font-family: 'Unbounded', light;
+            font-size: 30px;
+            background-color: #5c5c5c;
+            border: 0px;
+            color: aliceblue;
+        }
+        .textt {
+            font-family: 'Unbounded', medium;
+            font-size: 18px; 
+        }
+        button:hover {
+            text-decoration: underline;
+        }  
+        .img2 {
+            width: 400px;
+            display: flex;
+            position: absolute;
+            left: 60px;
+            top: 600px;
+        }   
+        .footer {
+            color: #707070;
+        } 
+        a {
+            color: grey;
+        }  
+        .tel {
+            color: #a9a9a9af;
+            display: none;
+        }
+        .logo-photo {
+            width: 300px;
+            display: flex;
+            position: absolute;
+            left: 350px;
+            top: 550px;
+        }
+        .navComputer {
+            display: flex;
+            justify-content: flex-end;
+        }
+        .navMobile {
+            display: none;
+        }
+        @media screen and (min-width: 280px) and (max-width: 1368px) {
+            .logo {
+                width: 200px;
+                display: flex;
+                justify-content: center;
+                margin-left: 20px;
+                margin-bottom: 5px;
+            }
+            .textt {
+                font-size: 12px;
+            }
+            .center {
+                margin-left: 10px;
+            }
+            h1 {
+                font-size: 40px;
+            }
+            header {
+                width: auto;
+                display: flex;
+            }
+            .ph {
+                font-size: 18px;
+                width: 202px;
+            }
+            .text {
+                font-size: 12px;
+            }
+            .marginleft {
+                margin-left: 10px;
+            }
+            .marginright {
+                margin-right: 0px;
+                margin-left: 10px;
+            }
+            .ph2 {
+                font-size: 18px;
+                width: 167px;
+            }
+            .phw {
+                font-size: 15px;
+                width: 255.3px;
+            }
+            .img2 {
+                margin-top: 205px;
+                margin-left: -40px;
+                width: 100px;
+                display: none;
+            }
+            .tel {
+                display:block;
+            }
+            .logo-photo {
+                display: none
+            }
+            .navComputer {
+                display: none;
+            }
+            .navMobile {
+                display: flex;
+                justify-content: flex-end;
+            }
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+    </style>
+    </head>
+    <body>
+    <header>
+        <img src="logo.png" width="300px" class="logo" alt="СВОБОДА - логотип">
+        <nav>
+            <div class="navComputer">
+            <button onclick="contact()"><span class="nav">Связаться</span></button></div>
+            <div class="navMobile">
+            <button onclick="contact()">Связаться</button></div>
+        </nav>
+    </header>
+    <article>
+        <div class="center">
+        <h1>Помогать может - каждый</h1>
+    </div>
+        <div class="marginleft"> 
+        <p class="ph">Подробнее о нас</p>
+        <p class="text">Свобода - сервис для людей с ограниченными <br>возможностями. Мы тут кратко говоря, шутки не шутим,<br> наши волонтеры относятся к каждой ситуации вполне серьезно. <br>Так что, не стоит боятся что, попросить достать сахар с высшей полки <br>совсем пустяк. В целом, как вы могли понять, мы очень серьезно относимся ко своим обязоностям. <br>И это не шутка.</p>
+    </div><br><br>
+        <div class="marginright">
+        <p class="ph2">Наша миссия</p>
+        <p class="text">Наша миссия очень проста, мы хотим что бы каждый получил помощь, не смотря на её пустяк.<br> А если точнее, то вы моежете быть уверены,<br>что мы вам поможем в любом случае. И реккомендуем запомнить:<br>Ни один человек, у которого ограничены возможности,<br>не останется в беде.</p>
+        <img src="banner2-freedom.png" class="img2" alt="Баннер">
+        <img src="banner-freedom (1).png" class="logo-photo" alt="Баннер">
+    </div><br><br><br>
+        <div class="marginleft">
+        <p class="phw">Связаться со "Свободой"</p>
+        <p class="textt">Надеемся, что вы заметили лестницу в первом абзаце. <span class="tel">Это видно у компьютеров. Но вы не обижайтесь.</span><br>Так вот, это - карьерная лестница, которая реальна. <br>Помогаем мы на бесплатной почве, коллектив дружелюбный, <br>и ждем людей на честную работу каждый день.<br>Если вы горите желанием помочь нам, всегда будем рады!</p>
+        <button onclick="buttonclick()">Связаться</button></div><br><br>
+    </article>
+<footer>
+    <h3>СВОБОДА</h3>
+    <p class="footer">Свобода - сервис для людей с ограничеными возможностями.</p><br>
+    <a href="index.html">Главная страница</a><br>
+    <a href="contact.html">Страница со связью</a><br>
+    <a href="map.html">Карта сайта</a><br>
+    <em>v.01</em>
+</footer>
+<script>
+    function openMap() {
+        window.open("map.html")
+    }
+    function buttonclick() {
+        window.open("contact.html", "status=yes")
+    }
+function contact() {
+    window.open("contact.html")
+}
+</script></body>
+</html>

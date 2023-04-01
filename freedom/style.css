@@ -1,0 +1,26 @@
+body {
+    background-color: #5c5c5c;
+    color: aliceblue;
+    font-family: 'Unbounded', regular;
+    src: url(fonts/Unbounded-Regular.ttf);
+}
+header {
+    margin-top: 10px;
+    background: linear-gradient(#234234, rgba(51, 17, 34, 0.489), rgba(34, 51, 68, 0.96));
+    border-radius: 10px;
+}
+.logo {
+    margin-left: 100px;
+    margin-top: 5px;
+}
+h1 {
+    font-family: 'Unbounded', black;
+    font-size: 70px;
+}
+footer {
+    background-color: #242424;
+}
+h3 {
+    margin-left: 10px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');

@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device=width, initial-scale=1.0">
+        <title>Связь</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            .logo {
+                margin-left: 100px;
+                margin-top: 5px;
+            }
+            .center {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+            .title {
+                background-color: aliceblue;
+                color: #0088ff;
+                width: 255.7px;
+                font-size: 25px;
+            }
+            .marginleft {
+                margin-left: 20px;
+            }
+            .text {
+                font-size: 18px;
+            }
+            .titleform {
+                background-color: aliceblue;
+                color: #0088ff;
+                font-size: 30px;
+                width: 271.2px;
+            }
+            form {
+                display:flex;
+                justify-content: center;
+            }
+            input {
+                font-family: 'Unbounded', regular;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <img src="logo.png" width="300px" class="logo">
+        </header>  
+        <article>      
+        <div class="center">
+            <h1>Связаться со "Свободой"</h1>
+        </div>
+        <div class="marginleft">
+        <p class="title">Способы связи</p>
+        <p class="text">Вы можете связаться с нами по почте, или же заполнить форму связи.</p>
+    </div><br><br><br>
+    <div class="center">
+        <p class="titleform">Форма связи</p></div>
+        <form action="#" name="form">
+            <input name="name" type="text" placeholder="Введите имя"><br>
+            <input name="type" type="text" placeholder="Тип обращения" list="types">
+            <datalist id="types">
+                <option value="Помощь"></option>
+                <option value="Вопрос"></option>
+            </datalist>
+        </form>
+    
+        </article>
+    </body>
+</html>
